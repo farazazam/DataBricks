@@ -82,7 +82,7 @@ val evaluator = new BinaryClassificationEvaluator()
 evaluator.evaluate(predictions)
 evaluator.getMetricName
 
-///Recommendation
+///Recommendation system
 import org.apache.spark.mllib.evaluation.RankingMetrics
 import org.apache.spark.ml.evaluation.RegressionEvaluator
 import org.apache.spark.ml.recommendation.ALS
